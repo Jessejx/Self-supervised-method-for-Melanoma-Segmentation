@@ -22,7 +22,9 @@ This is a long description.
 - [Contributing](#contributing)
 - [License](#license)
 
-## Security
+## Methods
+
+![Image text](https://github.com/Jessejx/Self-supervised-method-for-Melanoma-Segmentation/blob/main/2.svg)
 
 ### Any optional sections
 
@@ -56,7 +58,7 @@ Note: The `license` badge image link at the top of this file should be updated w
 
 # Results
 
-![Image text]()
+![Image text](https://github.com/Jessejx/Self-supervised-method-for-Melanoma-Segmentation/blob/main/1.svg)
 
 
 ## Contributing
