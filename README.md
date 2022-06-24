@@ -60,7 +60,7 @@ Note: The `license` badge image link at the top of this file should be updated w
 # Results
 
 <div align=center>
-<img src="https://github.com/Jessejx/Self-supervised-method-for-Melanoma-Segmentation/blob/main/1.svg" width="500px">
+<img src="https://github.com/Jessejx/Self-supervised-method-for-Melanoma-Segmentation/blob/main/1.svg" width="750px">
 </div>
 
 ## Contributing
