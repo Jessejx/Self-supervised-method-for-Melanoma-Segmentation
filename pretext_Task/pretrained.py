@@ -10,7 +10,7 @@ from architecture_224 import Network, Decoder
 if __name__ == "__main__":
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    data_dir = '/media/tzh/data_1/workings_ljx/Pretraining_huge'
+    data_dir = 'to/your/unlabeled/dataset'
     negative_nb = 5000  # number of negative examples in NCE
     checkpoint_dir = 'jigsaw_models'
     log_filename = 'pretraining_log_jigsaw'
