@@ -23,8 +23,9 @@ This is a long description.
 - [License](#license)
 
 ## Methods
-
+<div align=center>
 <img src="https://github.com/Jessejx/Self-supervised-method-for-Melanoma-Segmentation/blob/main/2.svg" width="500px">
+</div>
 
 ### Any optional sections
 
