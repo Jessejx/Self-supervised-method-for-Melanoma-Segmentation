@@ -3,13 +3,12 @@
 
 ## Table of Contents
 
-- [Security](#security)
 - [Background](#background)
+
+- [Pretrained weights](#pretrained_weights)
+
+
 - [Install](#install)
-- [Usage](#usage)
-- [API](#api)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Methods
 <div align=center>
@@ -19,6 +18,10 @@
 ### Any optional sections
 
 ## Background
+Self-supervised learning (SSL) is a novel method of deep learning, can be regarded as an intermediate form between unsupervised and supervised learning, which can avoid expen- sive and time-consuming data annotations and collections. It learns in two steps. First, SSL methods were learned visual features with automatically generated labels (i.e., pretext task). Second, the learned features serve as a pre-trained model and are transferred to downstream tasks with few human-annotated labels (i.e., downstream task). Downstream tasks are multiple different tasks that are used to evaluate the quality of features such as melanoma segmentation by fine-tuning. In this repositories, we present pretext task (i.e., proposed model) and downstream task (i.e., pspnet)
+
+## Pretrained weights
+pretrained weights in: https://pan.baidu.com/s/1vSGG4etOjx0_aFuq1qqwQw Password is: bvq9
 
 ### Any optional sections
 
