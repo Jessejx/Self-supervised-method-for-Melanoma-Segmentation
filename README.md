@@ -1,6 +1,5 @@
 # Self-supervised-method-for-Melanoma-Segmentation
-# Paper Title: 
-JIANet_Jigsaw-Invariant Self-supervised Learning of Auto-encoder Based Reconstruction for Melanoma Segmentation
+Paper Title: _JIANet: Jigsaw-Invariant Self-supervised Learning of Auto-encoder Based Reconstruction for Melanoma Segmentation_
 <!-- 
 ![banner]() -->
 
