@@ -24,7 +24,7 @@ This is a long description.
 
 ## Methods
 
-<img src="https://github.com/Jessejx/Self-supervised-method-for-Melanoma-Segmentation/blob/main/2.svg" width="100px">
+<img src="https://github.com/Jessejx/Self-supervised-method-for-Melanoma-Segmentation/blob/main/2.svg" width="500px">
 
 ### Any optional sections
 
