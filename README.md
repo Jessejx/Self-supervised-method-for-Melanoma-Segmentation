@@ -45,8 +45,17 @@ In this repositories, we present pspnet from downstream segmentation task:
 ### Results
 The results of the proposed framework are presented in the terminal.
 
+Visualization:
+
 <div align=center>
 <img src="https://github.com/Jessejx/Self-supervised-method-for-Melanoma-Segmentation/blob/main/1.svg" width="750px">
+</div>
+<br/>
+
+Semgentation Results:
+
+<div align=center>
+<img src="https://github.com/Jessejx/Self-supervised-method-for-Melanoma-Segmentation/blob/main/fig999.svg" width="750px">
 </div>
 
 ## Pretraining
