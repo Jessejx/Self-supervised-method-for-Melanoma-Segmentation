@@ -3,34 +3,52 @@
 
 ## Table of Contents
 
-- [Background](#background)
+- [Background and Method](#background)
+
+- [Configurations](#Configurations)
 
 - [Pretrained weights](#pretrained_weights)
 
 
+
 - [Install](#install)
 
-## Methods
+
+## Background and Method
+Self-supervised learning (SSL) is a novel method of deep learning, can be regarded as an intermediate form between unsupervised and supervised learning, which can avoid expen- sive and time-consuming data annotations and collections. It learns in two steps. First, SSL methods were learned visual features with automatically generated labels (i.e., pretext task). Second, the learned features serve as a pre-trained model and are transferred to downstream tasks with few human-annotated labels (i.e., downstream task). Downstream tasks are multiple different tasks that are used to evaluate the quality of features such as melanoma segmentation by fine-tuning. In this repositories, we present pretext task (i.e., proposed model) and downstream task (i.e., pspnet)
+
 <div align=center>
 <img src="https://github.com/Jessejx/Self-supervised-method-for-Melanoma-Segmentation/blob/main/2.svg" width="500px">
 </div>
 
-### Any optional sections
+## Configurations
 
-## Background
-Self-supervised learning (SSL) is a novel method of deep learning, can be regarded as an intermediate form between unsupervised and supervised learning, which can avoid expen- sive and time-consuming data annotations and collections. It learns in two steps. First, SSL methods were learned visual features with automatically generated labels (i.e., pretext task). Second, the learned features serve as a pre-trained model and are transferred to downstream tasks with few human-annotated labels (i.e., downstream task). Downstream tasks are multiple different tasks that are used to evaluate the quality of features such as melanoma segmentation by fine-tuning. In this repositories, we present pretext task (i.e., proposed model) and downstream task (i.e., pspnet)
+Please install the following libraries, or load the provided ‘environment.yml’ file
+
+1. python 3.7.0
+2. pytorch 1.7.0 + cu110
+3. albumentations 0.5.2
+4. tqdm
 
 ## Pretrained weights
-pretrained weights in: https://pan.baidu.com/s/1vSGG4etOjx0_aFuq1qqwQw Password is: bvq9
+pretrained weights are in: [Pretraining weights](https://pan.baidu.com/s/1vSGG4etOjx0_aFuq1qqwQw) Password is: bvq9
 
-### Any optional sections
+## Datasets
+The pretraining dataset can be downloaded from the following URLs:
 
-## Install
+1. [Pretraining dataset](https://challenge.isic-archive.com/data/)
+2. [segmentation dataset](https://challenge.isic-archive.com/data/)
 
-This module depends upon a knowledge of [Markdown]().
+### Segmentation 
+In this repositories, we present pspnet from downstream segmentation task:
 
-```
-```
+1. Download the pretrained weights:
+2. Load the pretrained weitghts from backbone network in the 'pspnet.py':
+3. Afterward, please run the 'baseline_pspnet.py' to segment skin lesion
+
+## Pretraining
+
+
 
 ### Any optional sections
 
