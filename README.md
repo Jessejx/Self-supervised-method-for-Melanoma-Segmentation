@@ -66,6 +66,7 @@ Please run the 'pretrained.py' to pretraining.
 
 ## Citation
 If you use the proposed framework (or any part of this code in your research), please cite the following paper:
+our paper will coming soon!
 
 
 ## Contact
