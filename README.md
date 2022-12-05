@@ -66,7 +66,14 @@ Please run the 'pretrained.py' to pretraining.
 
 ## Citation
 If you use the proposed framework (or any part of this code in your research), please cite the following paper:
-our paper will coming soon!
+
+@article{zhang2022jianet,
+  title={JIANet: Jigsaw-Invariant Self-supervised Learning of Auto-encoder Based Reconstruction for Melanoma Segmentation},
+  author={Zhang, Hui and Liu, Jiaxuan and Wu, Tianyue and Chen, Yurong and Liu, Caiping and Wang, Yaonan},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  year={2022},
+  publisher={IEEE}
+}
 
 
 ## Contact
